@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: rgb(231, 228, 228);
+    color: black;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.App_Mensaje_y_informacion {
+    background-color: rgba(202, 194, 194, 0.671);
+    border-radius: 10px;
+    height: 62vh;
+    width: 65vh;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 360px) {
+ .App_Mensaje_y_informacion {
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+}
+a {
+    text-decoration: none;
+    color: blue;
+    transform: 
+    color 0.5 ease
+    ;
+}
+a:hover {
+    text-decoration: underline;
+}
+#App_Informacion {
+    display: inline;
+    text-align: center;
+}
+#header_principal {
+    background-color: gainsboro;
+}
+.form_mensaje {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+}
+input {
+    width: 40vh;
+    height: 70px;
+    background-color: gray;
+    color: black;
+    border-radius: 100px;
+    font-size: 25px;
+    border: solid 2px black;
+}
+.label_form_mensaje {
+    font-size: 40px;
+}
+#button_form_mensaje {
+    width: 40vh;
+    height: 70;
+    border-radius: 10px;
+    font-size: 26px;
+    transform: background-color 0.5 ease;
+}
+#button_form_mensaje:hover {
+    background-color: gainsboro;
+}
+.App_chat {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

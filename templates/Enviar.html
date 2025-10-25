@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Santiago Cussit 1A :3">
+    <title>Enviar Mensaje - Santiago Cussit</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    {% block content %}
+    <form name="formulario" class="form_mensaje" method="post" action="{{ url_for('enviar') }}">
+        <label class="label_form_mensaje">Pone tu mensaje</label>
+        <input type="text" class="Input_Form" name="text">
+        <input type="submit" id="button_form_mensaje" value="Enviar">
+    </form>
+    {% endblock %}
+</body>
+</html>
